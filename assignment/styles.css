@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(22, 22, 22);
+    
+    color: #c1c3c5;
+}
+
+main {
+    min-height: 100vh;
+    background-color: aquamarine;
+    background-image: linear-gradient(to bottom right, purple, teal);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #3672b7;
+    font-size: 24px;
+    padding: 5%;
+    
+}
+
+h3 {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(50, 85%, 55%);
+    word-spacing: 3px;
+    margin: 10px 0;
+}
+
+p, ul, a {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(240, 1%, 81%);
+    word-spacing: 3px;
+    
+}
+
+.indent {
+    padding-left: 50px;
+}
+
+img.avatar {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;   
+    box-shadow: 20px 2px 50px  rgb(167, 166, 166) ; 
+    margin-top: 50px;
+    transform:scale(1);
+}
+
+.centered {
+    display: block;
+    margin: auto;
+    vertical-align: middle;
+}
+
+/* Desktop View */ 
+@media screen and (min-width : 601px) {
+    #card {
+        background-color: white;
+        display: flex;
+        height: 500px;
+        width: 900px;
+        border-radius: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #left {
+        width: 35%;
+        height: 100%;
+        padding: 8%
+    }
+
+    #right {
+        width: 65%;
+        height: 100%;
+        padding: 8%;
+        
+        background-color: #28253e;
+        color: rgb(50, 50, 50);
+        overflow: auto;
+    }
+} 
+/* Desktop View END */ 
+
